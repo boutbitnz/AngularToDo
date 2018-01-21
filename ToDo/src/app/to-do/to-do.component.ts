@@ -4,6 +4,13 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 import { Todo } from './to-do';
 import { TodoService } from './to-do.service';
+
+
+export enum SaveMode {
+  None,
+  New,
+  Edit
+}
 @Component({
   selector: 'app-to-do',
   templateUrl: './to-do.component.html',
