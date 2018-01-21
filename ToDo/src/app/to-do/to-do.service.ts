@@ -1,3 +1,6 @@
+// After creating a service we need to provide a reference of it to the main module,
+// which is the app.module.ts file.In it, the providers’ section array looks empty: “providers: [], ”
+
 import { Injectable } from '@angular/core';
 
 import { Todo } from './to-do';
