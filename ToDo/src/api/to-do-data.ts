@@ -9,20 +9,20 @@ export const TODO_ITEMS: Todo[] = [
     {
         id: 1,
         name: 'Name',
-        notes: 'New Note',
-        // due: new Date(new Date().setDate(new Date().getDate() + 4)),
+        notes: 'details',
+        due: new Date(new Date().setDate(new Date().getDate() - 1)),
         done: false
     }, {
         id: 2,
-        name: 'Name',
-        notes: 'New Note',
-        // due: new Date(new Date().setDate(new Date().getDate() + 5)),
+        name: '#',
+        notes: '#',
+        due: new Date(new Date().setDate(new Date().getDate() + 1)),
         done: false
     }, {
         id: 3,
-        name: 'Name',
-        notes: 'New Note',
-        // due: new Date(new Date().setDate(new Date().getDate() - 1)),
+        name: '#',
+        notes: '#',
+        due: new Date(new Date().setDate(new Date().getDate() + 1)),
         done: true
     }
 ];
