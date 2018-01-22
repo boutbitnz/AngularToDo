@@ -1,0 +1,459 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+Div.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  .container::before {
+    .btn-group-vertical>.btn-group:after,
+    .btn-group-vertical>.btn-group:before,
+    .btn-toolbar:after,
+    .btn-toolbar:before,
+    .clearfix:after,
+    .clearfix:before,
+    .container-fluid:after,
+    .container-fluid:before,
+    .container:after,
+    .container:before,
+    .dl-horizontal dd:after,
+    .dl-horizontal dd:before,
+    .form-horizontal .form-group:after,
+    .form-horizontal .form-group:before,
+    .modal-footer:after,
+    .modal-footer:before,
+    .modal-header:after,
+    .modal-header:before,
+    .nav:after,
+    .nav:before,
+    .navbar-collapse:after,
+    .navbar-collapse:before,
+    .navbar-header:after,
+    .navbar-header:before,
+    .navbar:after,
+    .navbar:before,
+    .pager:after,
+    .pager:before,
+    .panel-body:after,
+    .panel-body:before,
+    .row:after,
+    .row:before {
+      display: table;
+      content: " ";
+    }
+  }
+   :after,
+   :before {
+    box-sizing: border-box;
+  }
+   :after,
+   :before {
+    box-sizing: border-box;
+  }
+  .container::after {
+    .btn-group-vertical>.btn-group:after,
+    .btn-toolbar:after,
+    .clearfix:after,
+    .container-fluid:after,
+    .container:after,
+    .dl-horizontal dd:after,
+    .form-horizontal .form-group:after,
+    .modal-footer:after,
+    .modal-header:after,
+    .nav:after,
+    .navbar-collapse:after,
+    .navbar-header:after,
+    .navbar:after,
+    .pager:after,
+    .panel-body:after,
+    .row:after {
+      clear: both;
+    }
+  }
+  .btn-group-vertical>.btn-group:after,
+  .btn-group-vertical>.btn-group:before,
+  .btn-toolbar:after,
+  .btn-toolbar:before,
+  .clearfix:after,
+  .clearfix:before,
+  .container-fluid:after,
+  .container-fluid:before,
+  .container:after,
+  .container:before,
+  .dl-horizontal dd:after,
+  .dl-horizontal dd:before,
+  .form-horizontal .form-group:after,
+  .form-horizontal .form-group:before,
+  .modal-footer:after,
+  .modal-footer:before,
+  .modal-header:after,
+  .modal-header:before,
+  .nav:after,
+  .nav:before,
+  .navbar-collapse:after,
+  .navbar-collapse:before,
+  .navbar-header:after,
+  .navbar-header:before,
+  .navbar:after,
+  .navbar:before,
+  .pager:after,
+  .pager:before,
+  .panel-body:after,
+  .panel-body:before,
+  .row:after,
+  .row:before {
+    display: table;
+    content: " ";
+  }
+}
+
+div.col-md-12 {
+  width: 100%;
+  float: left;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.h1,
+h1 {
+  font-size: 36px;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+.table {
+  display: table;
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th.text-center {
+  .table>caption+thead>tr:first-child>td,
+  .table>caption+thead>tr:first-child>th,
+  .table>colgroup+thead>tr:first-child>td,
+  .table>colgroup+thead>tr:first-child>th,
+  .table>thead:first-child>tr:first-child>td,
+  .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+  }
+  .table-bordered>thead>tr>td,
+  .table-bordered>thead>tr>th {
+    border-bottom-width: 2px;
+  }
+  .table-bordered>tbody>tr>td,
+  .table-bordered>tbody>tr>th,
+  .table-bordered>tfoot>tr>td,
+  .table-bordered>tfoot>tr>th,
+  .table-bordered>thead>tr>td,
+  .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+  }
+  .table>tbody>tr>td,
+  .table>tbody>tr>th,
+  .table>tfoot>tr>td,
+  .table>tfoot>tr>th,
+  .table>thead>tr>td,
+  .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+  }
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+  border: 1px solid #ddd;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+btn.btn.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+btn.btn.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+input,
+textarea,
+select,
+button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+input,
+textarea,
+select,
+button,
+meter,
+progress {
+  -webkit-writing-mode: horizontal-tb;
+}
+
+/* button.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* .glyphicon-pencil:before {
+  content: "\270F";
+} */
+
+/* .glyphicon-remove:before {
+  content: "\E014";
+} */
+
+:after,
+ :before {
+  box-sizing: border-box;
+}
+
+Div.container :after,
+Div.container :before {
+  box-sizing: border-box;
+}
+
+div.container :after,
+Div.container :before {
+  box-sizing: border-box;
+}
+
